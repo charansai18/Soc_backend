@@ -1,0 +1,21 @@
+<!-- views/success.ejs -->
+<!doctype html>
+<html>
+  <head>
+    <title>Google SignIn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- load fontawesome -->
+      <style>
+         
+      </style>
+  </head>
+  <body>
+    
+                        <p>
+                            <strong>Id</strong>: <%= user.id %><br>
+                            <strong>Email</strong>: <%= user.emails[0].value %><br>
+                            <strong>Name</strong>: <%= user.displayName %>
+                        </p>
+               
+  </body>
+</html> 
