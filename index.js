@@ -6,7 +6,6 @@ const passport = require('passport');
 const session = require('cookie-session');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 var user;
-const cors = require("./routes/cors");
 
 
 
