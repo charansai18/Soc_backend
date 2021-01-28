@@ -118,7 +118,6 @@ MongoClient.connect('mongodb+srv://Registration:charangoc30@cluster0.fga0d.mongo
         }) ,
           (req, res) => {
               console.log("login done");
-              res.setHeader("Content-Type", "text/html");
               res.redirect('http://localhost:3000/admin/dashboard', 200,  {userData:user});
              
           }
